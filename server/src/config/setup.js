@@ -1,0 +1,2 @@
+import AdminJS from "adminjs";
+

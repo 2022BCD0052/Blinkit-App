@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "module": "ESNext",
+      "target": "ES6",
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true, // Allows default import compatibility
+      "strict": true, // Enables all strict type-checking options
+      "skipLibCheck": true, // Skips type checks for declaration files for faster compilation
+      "outDir": "./dist", // Specifies the output directory
+      "rootDir": "./src", // Specifies the root directory of your project
+      "resolveJsonModule": true, // Allows importing JSON files
+      "forceConsistentCasingInFileNames": true // Enforces consistent file name casing
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"] // Explicitly include your source files
+  }
+  
