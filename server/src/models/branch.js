@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import { model } from '../../node_modules/mongoose/types/index.d';
 
 // base user schema like same for most model
 
