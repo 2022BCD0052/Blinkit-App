@@ -29,4 +29,4 @@ const ProductSchema = new mongoose.Schema({
 })
 
 const Product = mongoose.model("Product", ProductSchema);
-export default Category;  //export the model
+export default Product;  //export the model

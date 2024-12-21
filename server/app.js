@@ -12,7 +12,7 @@ const start = async () => {
     await buildAdminRouter(app)
 
     try {
-        await app.listen({ port: PORT, host: '0.0.0.0' });
+        await app.listen({ port: PORT});
         console.log(`Server listening on ${PORT}${admin.options.rootPath}`);
     } catch (err) {
         console.error("Error starting server:", err);

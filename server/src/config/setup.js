@@ -32,6 +32,7 @@ export const admin = new AdminJS({
     },
     {
       resource: Models.Branch,
+      // resource: Models.Category,
     },
  
   ],
@@ -40,7 +41,7 @@ export const admin = new AdminJS({
         favicon : "https://yt3.googleusercontent.com/YnrIWet65YxJQJlwlXI33E5r22UzWWHYGoL4Jtx_V2pvdbyhgLN1SAASnFOGZ4CuKjBNZjMFTQ=s900-c-k-c0x00ffffff-no-rj",
         logo: "https://yt3.googleusercontent.com/YnrIWet65YxJQJlwlXI33E5r22UzWWHYGoL4Jtx_V2pvdbyhgLN1SAASnFOGZ4CuKjBNZjMFTQ=s900-c-k-c0x00ffffff-no-rj",
         withMadeWithLove : false,
-        copyright : "Blinkit 2023",
+        copyright : "Blinkit 2024",
 
      },
      defaultTheme :dark.id,

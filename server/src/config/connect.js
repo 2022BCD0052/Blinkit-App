@@ -2,10 +2,8 @@ import mongoose from "mongoose";
 
 export const connectDB = async (uri) => {
   try {
-    await mongoose.connect(uri, {
-      useNewUrlParser: true, // Use new MongoDB connection string parser
-      useUnifiedTopology: true, // Use the new topology engine
-    });
+    // Connect to the database
+    await mongoose.connect(uri);
     console.log("DB connected successfully");
   } catch (error) {
     console.error("Database connection error:", error.message);
